@@ -1,0 +1,109 @@
+"CustomModels"
+{
+	"cloud9 glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_cloud_9.mdl"
+		"team" "both"
+	} 
+	"immortals"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_immortalis.mdl"
+		"team" "both"
+	} 
+	"EnvyUs glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_envyus.mdl"
+		"team" "both"
+	} 
+	"epsilon glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_epsilon.mdl"
+		"team" "both"
+	} 
+	"faze glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_faze.mdl"
+		"team" "both"
+	} 
+	"dignitas glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_dignitas.mdl"
+		"team" "both"
+	} 
+	"fnatic glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_fnatic.mdl"
+		"team" "both"
+	} 
+	"g2 glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_g2.mdl"
+		"team" "both"
+	} 
+	"gambit glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_gambit.mdl"
+		"team" "both"
+	} 
+	"godsent glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_godsent.mdl"
+		"team" "both"
+	} 
+	"hell raisers glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_hell_raisers.mdl"
+		"team" "both"
+	} 
+	"iBuyPower glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_ibp.mdl"
+		"team" "both"
+	} 
+	"Liquid glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_liquid.mdl"
+		"team" "both"
+	} 
+	"Lum Glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_luminosity.mdl"
+		"team" "both"
+	} 
+	"Mouz Glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_mousesports.mdl"
+		"team" "both"
+	} 
+	"NiP glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_n.i.p.mdl"
+		"team" "both"
+	} 
+	"NaVi glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_navi.mdl"
+		"team" "both"
+	} 
+	"TSM Glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_tsm.mdl"
+		"team" "both"
+	} 
+	"Ren glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_renegades.mdl"
+		"team" "both"
+	} 
+	"SK Gaming Glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_sk_gaming.mdl"
+		"team" "both"
+	} 
+	"Team-X Glove"
+	{
+		"model" "models/weapons/eminem/ct_arms_idf_team_x.mdl"
+		"team" "both"
+	}
+
+}
