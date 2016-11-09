@@ -37,8 +37,8 @@ public OnPluginStart()
 {
 	armscookie1 = RegClientCookie("ArmsTeam1", "ArmsTeam1", CookieAccess_Private);
 	armscookie2 = RegClientCookie("ArmsTeam2", "ArmsTeam2", CookieAccess_Private);
-	armscookie3 = RegClientCookie("ArmsTeam3", "ArmsTeam1", CookieAccess_Private);
-	armscookie4 = RegClientCookie("ArmsTeam4", "ArmsTeam2", CookieAccess_Private);
+	armscookie3 = RegClientCookie("ArmsTeam3", "ArmsTeam3", CookieAccess_Private);
+	armscookie4 = RegClientCookie("ArmsTeam4", "ArmsTeam4", CookieAccess_Private);
 	
 	CreateConVar("sm_configurablearmsmenu_version", DATA, "plugin info", FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 	
