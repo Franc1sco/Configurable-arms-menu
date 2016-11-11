@@ -1,5 +1,25 @@
 "CustomModels"
 {
+	"Default CT Arms"
+	{
+		"model" "models/weapons/ct_arms.mdl"
+		"team" "CT"
+	}
+	"Default T Arms"
+	{
+		"model" "models/weapons/t_arms.mdl"
+		"team" "TT"
+	} 
+	"Default Human Arms"
+	{
+		"model" "models/weapons/ct_arms.mdl"
+		"team" "Human"
+	}
+	"Default Zombie Arms"
+	{
+		"model" "models/weapons/t_arms.mdl"
+		"team" "Zombie"
+	} 
 	"cloud9 glove"
 	{
 		"model" "models/weapons/eminem/ct_arms_idf_cloud_9.mdl"
