@@ -5,7 +5,7 @@
 #undef REQUIRE_PLUGIN
 #include <zombiereloaded>
 
-#define DATA "1.0"
+#define DATA "1.0.1"
 
 char sConfig[PLATFORM_MAX_PATH];
 Handle kv;
@@ -285,7 +285,7 @@ ShowMenuCTs(client, item)
 			if (!StrEqual(temp2, "CT", false) && !StrEqual(temp2, "both", false))continue;
 			
 			KvGetString(kv, "model", model,256);
-			if (!FileExists(model))continue;
+			if (!FileExists(model) && !FileExists(model, true))continue;
 			
 			KvGetSectionName(kv, temp, 256);
 			KvGetString(kv, "flag", flags, 24, "public");
@@ -359,7 +359,7 @@ ShowMenuTTs(client, item)
 			if (!StrEqual(temp2, "TT", false) && !StrEqual(temp2, "both", false))continue;
 			
 			KvGetString(kv, "model", model,256);
-			if (!FileExists(model))continue;
+			if (!FileExists(model) && !FileExists(model, true))continue;
 			
 			KvGetSectionName(kv, temp, 256);
 			KvGetString(kv, "flag", flags, 24, "public");
@@ -434,7 +434,7 @@ ShowMenuZombies(client, item)
 			if (!StrEqual(temp2, "Zombie", false) && !StrEqual(temp2, "both", false))continue;
 			
 			KvGetString(kv, "model", model,256);
-			if (!FileExists(model))continue;
+			if (!FileExists(model) && !FileExists(model, true))continue;
 			
 			KvGetSectionName(kv, temp, 256);
 			KvGetString(kv, "flag", flags, 24, "public");
@@ -510,7 +510,7 @@ ShowMenuHumans(client, item)
 			if (!StrEqual(temp2, "Human", false) && !StrEqual(temp2, "both", false))continue;
 			
 			KvGetString(kv, "model", model,256);
-			if (!FileExists(model))continue;
+			if (!FileExists(model) && !FileExists(model, true))continue;
 			
 			KvGetSectionName(kv, temp, 256);
 			KvGetString(kv, "flag", flags, 24, "public");
@@ -584,7 +584,7 @@ void GiveArms(client)
 	else
 		team = GetClientTeam(client);
 		
-	if(strlen(g_arms[1][team][client]) > 2 && !StrEqual(g_arms[1][team][client], "none", false) && FileExists(g_arms[1][team][client])) 
+	if(strlen(g_arms[1][team][client]) > 2 && !StrEqual(g_arms[1][team][client], "none", false) && (FileExists(g_arms[1][team][client]) || FileExists(g_arms[1][team][client], true))) 
 	{
 		SetEntPropString(client, Prop_Send, "m_szArmsModel", g_arms[1][team][client]);
 		CreateTimer(0.15, RemoveItemTimer, EntIndexToEntRef(client), TIMER_FLAG_NO_MAPCHANGE);
